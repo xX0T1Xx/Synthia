@@ -1,0 +1,6 @@
+__pycache__/
+src/data/database.db
+src/data/tokens.json
+src/data/globals.json
+src/sandbox.py
+src/run.bat
