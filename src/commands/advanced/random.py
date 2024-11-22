@@ -3,7 +3,7 @@ import random
 import discord
 from discord.ext import commands
 
-from database import users, scrobbles
+from database import users, scrobbles, globals
 
 info = {
     "aliases": ["r"],

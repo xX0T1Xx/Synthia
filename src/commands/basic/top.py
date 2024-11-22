@@ -5,7 +5,7 @@ from api import lastfm
 from database import users
 
 info = {
-    "aliases": ["t"],
+    "aliases": [],
     "description": "Displays your top 10 scrobbled songs."
 }
 

@@ -35,7 +35,7 @@ class Fm(commands.Cog):
         embed.set_footer(text=("Now Playing" if nowplaying else "Last Track"))
         await ctx.send(embed=embed)
 
-        globals.setglobal("last_track", f"{artist} - {name}")
+        globals.set_global("last_track", f"{artist} - {name}")
 
 
 async def setup(bot):
